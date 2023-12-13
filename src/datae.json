@@ -1,0 +1,68 @@
+
+{
+    "data":[
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "2",
+            "equipmentId": "2",
+            "equipmentCode": "02",
+            "equipmentName": "AUX ENGINE"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "3",
+            "equipmentId": "3",
+            "equipmentCode": "03",
+            "equipmentName": "CARGO PUMP"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "4",
+            "equipmentId": "4",
+            "equipmentCode": "04",
+            "equipmentName": "AIR COMPRESSOR"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "5",
+            "equipmentId": "5",
+            "equipmentCode": "05",
+            "equipmentName": "OILY WATER SEPARATOR"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "6",
+            "equipmentId": "6",
+            "equipmentCode": "06",
+            "equipmentName": "PUMP"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "7",
+            "equipmentId": "7",
+            "equipmentCode": "07",
+            "equipmentName": "PURIIFIER"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "8",
+            "equipmentId": "8",
+            "equipmentCode": "08",
+            "equipmentName": "CARGO ENGINE"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "9",
+            "equipmentId": "9",
+            "equipmentCode": "09",
+            "equipmentName": "TURBOCHARGER"
+        },
+        {
+            "branchId": "1",
+            "sparesEquipmentId": "10",
+            "equipmentId": "10",
+            "equipmentCode": "10",
+            "equipmentName": "GEAR BOX"
+        }
+    ]
+}

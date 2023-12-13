@@ -1,0 +1,79 @@
+{
+    "data": [
+        {
+            "branchId": "1",
+            "sparesModelId": "3",
+            "sparesEquipmentId": "2",
+            "modelType": "INPUT SHAFT ASSEMBLY"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "4",
+            "sparesEquipmentId": "2",
+            "modelType": "TRANSMISSION SAHFT ASSEMBLY"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "5",
+            "sparesEquipmentId": "2",
+            "modelType": "OUTPUT SHAFT ASSEMBLY"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "6",
+            "sparesEquipmentId": "2",
+            "modelType": "HOUSING ASSEMBLY1"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "7",
+            "sparesEquipmentId": "2",
+            "modelType": "HOUSING ASSEMBLY2"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "8",
+            "sparesEquipmentId": "2",
+            "modelType": "HUDRAULIC CONTROL ASSEMBLY"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "9",
+            "sparesEquipmentId": "2",
+            "modelType": "PUMP ASSEMBLY"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "10",
+            "sparesEquipmentId": "2",
+            "modelType": "COOLER (Q08-02-00A/300)"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "11",
+            "sparesEquipmentId": "2",
+            "modelType": "COOLER (J400-04-500)"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "12",
+            "sparesEquipmentId": "2",
+            "modelType": "SUPER-HYDRAULIC TOOL (FOR SPECIAL ORDER)"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "11072018050002",
+            "sparesEquipmentId": "6",
+            "modelType": "test 1234",
+            "serialNo": "1235"
+        },
+        {
+            "branchId": "1",
+            "sparesModelId": "11072018050004",
+            "sparesEquipmentId": "5",
+            "modelType": "test",
+            "serialNo": "12345"
+        }
+    ]
+}
+

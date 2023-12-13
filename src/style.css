@@ -1,0 +1,21 @@
+.ag-theme-quartz,
+.ag-theme-quartz-dark {
+  --ag-foreground-color: rgb(49, 44, 46);
+  --ag-background-color: rgb(255, 255, 255);
+  --ag-header-foreground-color: rgb(248, 242, 239);
+  --ag-header-background-color:#dc3545;
+  --ag-odd-row-background-color: rgba(216, 21, 151, 0.03);
+  --ag-header-column-resize-handle-color: rgb(126, 46, 132);
+  --ag-selected-row-background-color: rgba(15, 142, 216, 0.1);
+
+  --ag-header-column-separator-display: block;
+  --ag-header-column-separator-height: 100%;
+  --ag-header-column-separator-width: 2px;
+  --ag-header-column-separator-color: purple;
+
+  --ag-header-column-resize-handle-display: block;
+  --ag-header-column-resize-handle-height: 25%;
+  --ag-header-column-resize-handle-width: 5px;
+  --ag-header-column-resize-handle-color: rgb(29, 29, 29);
+
+}
