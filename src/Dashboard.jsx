@@ -16,12 +16,15 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 const Dashboard = ({ rowData, setRowData,newRecord,setNewRecord,setEditData ,editdataa,items,setItems}) => {
+    const initialRowData = JSON.parse(localStorage.getItem('tableData')) || [];
+    console.log(initialRowData);
     const [gridApi, setGridApi] = useState(null);
+    const [tableData, setTableData] = useState(initialRowData);
     const [gridColumnApi, setGridColumnApi] = useState(null);
     
     const [quickFilterText, setQuickFilterText] = useState('');
 
-
+console.log(tableData);
     useEffect(() => {
         const storedItems = JSON.parse(localStorage.getItem('items')) || [];
         setItems(storedItems);
@@ -157,7 +160,7 @@ const navigate=useNavigate();
     </div>         <div
                 className="ag-theme-quartz mt-4" style={{ width: '100%', height: '85vh' }} >
                     <AgGridReact
-                        rowData={rowData}
+                        rowData={tableData}
                         columnDefs={colDefsWithEditButton}
                         // defaultColDef={defaultColDef}
                         pagination={true}

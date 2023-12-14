@@ -251,7 +251,7 @@ const onSubmit = (values,{resetForm}) => {
 
                       <div className="mb-3 col-6">
                         <label htmlFor="mnumberAlt" className="form-label">
-                          Mobile No.(Primary)<span style={{ color: 'red' }}>*</span>
+                          Mobile No.(alt)<span style={{ color: 'red' }}>*</span>
                         </label>
                         <Field type="text" id="mnumberAlt" name="mnumberAlt" className="form-control" />
                         <ErrorMessage name="mnumberAlt" component="div" className="text-danger" />

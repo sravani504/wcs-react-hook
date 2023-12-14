@@ -7,6 +7,7 @@ const Post = () => {
   const [selectedUserId, setSelectedUserId] = useState('');
   const [modalData, setModalData] = useState([]);
 
+
   const handleModelData = (value) => {
     console.log(value);
     const model = data.filter((item) => item.userId !== Number(value ));
@@ -42,7 +43,9 @@ const Post = () => {
   const dropdownOptions = [...new Set(data.map((item) => item.userId))];
 
   return (
+    
     <div className='container mt-5'>
+
       <div className='row'>
         <div className='col-6'>
           <select
