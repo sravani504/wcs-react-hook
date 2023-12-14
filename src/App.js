@@ -46,7 +46,7 @@ setEditData(e)
       <Routes>
         <Route path="/" element={<SampleData rowData={rowData} setRowData={setRowData} newRecord={newRecord} setNewRecord={setNewRecord} editedData={editData}    />} />
         <Route path='/dashboard' element={<Dashboard  items={items} setItems={setItems}  rowData={rowData} editdataa={editdataa} setRowData={setRowData} newRecord={newRecord} setNewRecord={setNewRecord}  setEditData={setEditData} />} />
-        <Route path="/dropdownItem" element={<Post  handlecallback={callback} />} />
+        <Route path="/dropdownItem" element={<Post  />} />
         <Route path="/ag-grid" element={<ExampleAggrid />} />
         <Route path='/formhook' element={<FormHook items={items} setItems={setItems} rowData={rowData} setRowData={setRowData} newRecord={newRecord} setNewRecord={setNewRecord} editedData={editData} editdataa={editdataa}/>}/>
 
